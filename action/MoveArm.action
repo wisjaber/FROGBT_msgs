@@ -1,0 +1,12 @@
+#goal definition
+string[] movements
+---
+#result definition
+bool success
+uint64 sec_passed
+string status
+---
+#feedback definition
+bool success
+uint64 sec_passed
+string status
