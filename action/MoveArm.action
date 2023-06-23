@@ -1,12 +1,10 @@
 #goal definition
-string[] movements
+bool go_home
 ---
 #result definition
 bool success
-uint64 sec_passed
 string status
 ---
 #feedback definition
 bool success
-uint64 sec_passed
 string status

@@ -72,6 +72,7 @@ add_action_files(
   FILES
   MoveArm.action
   BehaviourTree.action
+  Generatebt.action
   # Action2.action
 )
 
