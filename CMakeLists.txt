@@ -64,15 +64,24 @@ add_service_files(
   HomeCheck.srv
   PoseCheck.srv
   LocationCheck.srv
+  PickedCheck.srv
+  DeliverCheck.srv
+  stateCheck.srv
+  product_stateCheck.srv
+
   # Service2.srv
 )
 
 ## Generate actions in the 'action' folder
 add_action_files(
   FILES
+  Approach.action
   MoveArm.action
   BehaviourTree.action
   Generatebt.action
+  Mock.action
+  Recovery.action
+
   # Action2.action
 )
 

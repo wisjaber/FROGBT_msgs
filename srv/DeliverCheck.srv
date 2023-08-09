@@ -1,0 +1,4 @@
+bool VacuumCheck
+geometry_msgs/Pose LocationCheck
+---
+bool response
